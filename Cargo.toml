@@ -2,3 +2,7 @@
 name = "book_study"
 version = "0.0.1"
 authors = ["Samuel Lorétan"]
+
+[[bin]]
+name = "philosophers"
+path = "src/philosophers.rs"
