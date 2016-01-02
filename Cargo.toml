@@ -1,8 +1,15 @@
 [package]
 name = "book_study"
 version = "0.0.1"
-authors = ["Samuel Lorétan"]
+authors = ["Samuel Loretan <tynril@gmail.com>"]
+
+[dependencies]
+rand = "*"
 
 [[bin]]
 name = "philosophers"
 path = "src/philosophers.rs"
+
+[[bin]]
+name = "guessing"
+path = "src/guessing.rs"
