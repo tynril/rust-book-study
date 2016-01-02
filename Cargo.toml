@@ -4,7 +4,8 @@ version = "0.0.1"
 authors = ["Samuel Loretan <tynril@gmail.com>"]
 
 [dependencies]
-rand = "*"
+rand = "^0.3"
+hyper = "^0.7"
 
 [[bin]]
 name = "philosophers"
@@ -13,3 +14,7 @@ path = "src/philosophers.rs"
 [[bin]]
 name = "guessing"
 path = "src/guessing.rs"
+
+[[bin]]
+name = "http"
+path = "src/http.rs"
