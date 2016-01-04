@@ -6,6 +6,8 @@ authors = ["Samuel Loretan <tynril@gmail.com>"]
 [dependencies]
 rand = "^0.3"
 hyper = "^0.7"
+bytes = "^0.3"
+mio = "^0.5"
 
 [[bin]]
 name = "philosophers"
@@ -18,3 +20,7 @@ path = "src/guessing.rs"
 [[bin]]
 name = "http"
 path = "src/http.rs"
+
+[[bin]]
+name = "mio"
+path = "src/mio.rs"
